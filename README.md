@@ -8,5 +8,9 @@ CLI application that automatically removes all merged branches and worktrees in 
 Inside the bare repository run
 
 ```bash
-npx clear-branches
+npx clean-branches
 ```
+
+## Screenshots
+
+![Screenshot]("/screenshot.png")
