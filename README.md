@@ -13,4 +13,4 @@ npx clean-branches
 
 ## Screenshots
 
-![Screenshot]("/screenshot.png")
+![Screenshot](/screenshot.png)
