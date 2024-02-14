@@ -1,0 +1,21 @@
+{
+  "name": "clean-branches",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "clean-branches": "./index.js"
+  },
+  "description": "Clean merged branches from a bare repo",
+  "main": "src/index.ts",
+  "author": "Juan Aragon",
+  "license": "MIT",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "kolorist": "^1.8.0",
+    "typescript": "^5.3.3",
+    "unbuild": "^2.0.0"
+  }
+}
