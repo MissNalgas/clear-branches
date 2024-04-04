@@ -1,9 +1,10 @@
 {
-  "name": "clean-branches",
+  "name": "@missnalgas/clean-branches",
   "version": "0.0.1",
   "type": "module",
   "bin": {
-    "clean-branches": "./index.js"
+    "clean-branches": "./index.js",
+    "@missnalgas/clean-branches": "./index.js"
   },
   "description": "Clean merged branches from a bare repo",
   "main": "src/index.ts",
