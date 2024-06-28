@@ -1,6 +1,6 @@
 {
   "name": "@missnalgas/clean-branches",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "bin": {
     "clean-branches": "./index.js",
@@ -11,7 +11,8 @@
   "author": "Juan Aragon",
   "license": "MIT",
   "scripts": {
-    "build": "unbuild"
+    "build": "unbuild",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
